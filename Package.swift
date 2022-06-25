@@ -23,11 +23,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "COpenSSL",
+    name: "swift-openssl",
     products: [
-        .library(name: "COpenSSL", targets: ["COpenSSL"])
+        .library(name: "OpenSSL", targets: ["OpenSSL"])
     ],
     targets: [
-        .target(name: "COpenSSL", path: "COpenSSL", exclude: ["scripts"])
+        .target(name: "OpenSSL", path: "OpenSSL")
     ]
 )
